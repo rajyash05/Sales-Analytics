@@ -91,6 +91,7 @@ export default {
           easing: 'in',
           startup: true,
         },
+        backgroundColor: '#F5F5F5',
       };
     },
   },
@@ -109,5 +110,6 @@ export default {
   width: 70%;
   max-width: 100%;
   height: 550px;
+  margin-top: 4px;
 }
 </style>
