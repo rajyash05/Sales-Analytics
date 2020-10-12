@@ -86,6 +86,11 @@ export default {
         },
         pointShape: 'circle',
         pointSize: 6,
+        animation: {
+          duration: 600,
+          easing: 'in',
+          startup: true,
+        },
       };
     },
   },

@@ -3,7 +3,8 @@
     <DropDown :inputArray="arraySalesOption"
     :selectedValue="selectedSalesAnalyticsFilter"
     :onSelect="onSelectDropDown"/>
-    <ChartWrapper :chartFilter="selectedSalesAnalyticsFilter" :key="selectedSalesAnalyticsFilter"/>
+    <ChartWrapper :chartFilter="selectedSalesAnalyticsFilter"
+    :key="selectedSalesAnalyticsFilter"/>
   </div>
 </template>
 
