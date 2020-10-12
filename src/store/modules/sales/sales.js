@@ -8,15 +8,15 @@ const state = {
 // getters
 const getters = {
   // getter to get the sales data
-  getSalesData: (state, payload) => {
+  getSalesData: (state) => {
     return state.salesData;
   },
 };
 
 // mutataions to change / update sales data in store
 const mutations = {
-  setSalesData(store, salesObjPayload) {
-    store.salesData = salesObjPayload;
+  setSalesData(state, salesObjPayload) {
+    state.salesData = salesObjPayload;
   },
 };
 
