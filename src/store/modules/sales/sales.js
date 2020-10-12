@@ -15,9 +15,8 @@ const getters = {
 
 // mutataions to change / update sales data in store
 const mutations = {
-  setSalesData(store, sessionObjPayload) {
-    localStorage.setItem('sessionData', JSON.stringify(sessionObjPayload));
-    store.salesData = sessionObjPayload;
+  setSalesData(store, salesObjPayload) {
+    store.salesData = salesObjPayload;
   },
 };
 
