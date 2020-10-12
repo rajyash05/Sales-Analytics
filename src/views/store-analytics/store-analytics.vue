@@ -55,7 +55,7 @@ export default {
     ...mapActions([
       'sales/setSalesData',
     ]),
-    // method to initialise store sata
+    // method to initialise store data
     initialiseStoreData(payLoad = null) {
       this['sales/setSalesData'](payLoad);
     },

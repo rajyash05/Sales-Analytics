@@ -107,8 +107,7 @@ export default {
 
 <style scoped>
 #chartContainer {
-  width: 70%;
-  max-width: 100%;
+  width: 100%;
   height: 550px;
   margin-top: 4px;
 }
