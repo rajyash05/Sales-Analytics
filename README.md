@@ -1,5 +1,6 @@
 # sales-graph
 
+Demo link: https://codesandbox.io/s/damp-fog-xyck7
 ## Project setup
 ```
 npm install
